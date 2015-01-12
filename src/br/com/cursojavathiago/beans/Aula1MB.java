@@ -7,10 +7,10 @@ import javax.faces.bean.SessionScoped;
 @SessionScoped
 public class Aula1MB {
 	private String nome;
-	private final String CONSTANTE = "ESSA É UMA CONSTANTE"; 
+	private final String CONSTANTE = "E ESSA É UMA CONSTANTE"; 
 	
-	public Aula1MB(){
-		nome = "Fernando A. Ribeiro";
+	public Aula1MB() {
+		nome = "Fernando A. Ribeiro " + CONSTANTE;
 	}
 
 	public String getNome() {
